@@ -1,0 +1,117 @@
+body, ul, li, a, h1 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 43px;
+}
+.header-wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-item {
+    margin-top: 5px;
+    margin-right: 40px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+.nav-link {
+    font-size: 11px;
+    line-height: 17px;
+    color: #999;
+    text-transform: uppercase;
+}
+.Portfolio {
+    color: #00D6B4;
+}
+
+
+.frame1 {
+    background: url(./IMAGE.png) no-repeat top center;
+    background-size: 100%;
+    height: 455px;
+}
+.f1-title {
+    padding-top: 226px;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    width: 465px;
+    margin: 0 auto;
+    color: #fff;
+}
+.get-quote {
+    background: transparent;
+    border: 1px solid #00D6B4;
+    border-radius: 3px;
+    width: 137px;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #00D6B4;
+    padding: 10px 26px;
+}
+
+
+.frame2 {
+    background-color: #222;
+}
+.f2-title {
+    padding-top: 50px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 33px;
+}
+.works {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+
+.footer {
+    background: #222;
+    text-align: center;
+    padding: 35px 0;
+}
+.footer-title {
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #C2C2C2;
+}
+.footer-description {
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+}
